@@ -1,4 +1,13 @@
-body {
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(0, 245, 149);
+    background-color: #34eea7;
+}
+
+.texto-principal {
+    margin-right: 20%;
+}body {
     background-color:#d3d3d31f;
 }
 
@@ -6,29 +15,20 @@ nav li {
     display: inline;
 }
 
-nav a{
-    text-transform: uppercase;
-    color: rgb(0, 255, 149);
-    background-color: #34eea7;
-}
-
-.texto-principal {
-    margin-right: 20%;
-}
 
 h1 {
     color: #2ecdd3;
     text-align: center;
 }
 h2 {
-    color: rgb(65, 50, 234);
+    color: rgb(50, 234, 142);
 }
 p {
     color: rgba(180, 84, 189, 0.863);
 
 }
 #imagem-principal {
-    width: 10%;
+    width: 20%;
     margin-left: 80%;
     border: 5px dotted rgb(216, 123, 113);
     float: left;
@@ -40,5 +40,5 @@ p {
     text-decoration: underline;
 }
 .texto-principal {
-    margin-right: 20%;
+    margin-right: 30%;
 }
